@@ -37,6 +37,16 @@
       <!-- droolsjbpm-knowledge -->
       <dependency>
         <groupId>org.kie</groupId>
+        <artifactId>maven-support</artifactId>
+        <version>${version.org.kie}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.kie</groupId>
+        <artifactId>maven-integration</artifactId>
+        <version>${version.org.kie}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.kie</groupId>
         <artifactId>kie-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
